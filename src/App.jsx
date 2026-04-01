@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
@@ -10,6 +12,9 @@ function App() {
   return (
     <div>
       <Navbar cart={cart} />
+      <ToastContainer />
+
+      <Banner />
       
     </div>
   );
