@@ -77,7 +77,7 @@ export default function Pricing() {
                   `
                 }>
                 {plan.badge && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-yellow-300 px-3 py-1 text-[10px] font-medium text-gray-800">
+                  <span className="absolute -top-3 font-bold  text-4xl left-1/2 -translate-x-1/2 rounded-full  bg-green-600 px-5 py-2 text-[10px] font-medium text-gray-800">
                     {plan.badge}
                   </span>
                 )}

@@ -1,4 +1,7 @@
+import cartIcon from "../img/shopping-cart-01.png";
+
 const Cart = ({ cart, removCart }) => {
+
   const total = cart.reduce((sum, item) => sum + item.price, 0);
 
   return (
@@ -7,7 +10,7 @@ const Cart = ({ cart, removCart }) => {
 
       {cart.length === 0 && (
         <p className="text-5xl text-red-600 flex gap-2 items-center justify-center text-center">Cart is empty
-          <img className="h-14 w-14 bg-amber-300 rounded-b-full p-4 " src="src/img/shopping-cart-01.png" alt="" /></p>
+          <img className="h-20 w-20 bg-amber-300 rounded-b-full p-4" src={cartIcon} alt="" /></p>
       )}
 
       <div className="space-y-4">

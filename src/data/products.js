@@ -1,3 +1,10 @@
+import img1 from "../img/Group 7 (5).png";
+import img2 from "../img/Group 7.png";
+import img3 from "../img/Group 7 (1).png";
+import img4 from "../img/Group 7 (2).png";
+import img5 from "../img/Group 7 (3).png";
+import img6 from "../img/Group 7 (4).png";
+
 const products = [
   {
     name: "AI Writing Pro",
@@ -6,7 +13,7 @@ const products = [
     priceSuffix: "/mo",
     features: ["Unlimited AI generations", "50+ writing templates", "Grammar checker"],
     label: "Best Seller",
-    image: "src/img/Group 7 (5).png",
+    image: img1,
   },
   {
     name: "Design Templates Pack",
@@ -15,7 +22,7 @@ const products = [
     priceSuffix: "/one-time",
     features: ["2000+ templates", "Monthly updates", "Commercial license"],
     label: "Popular",
-    image: "src/img/Group 7.png",
+    image: img2,
   },
   {
     name: "Premium Stock Assets",
@@ -24,7 +31,7 @@ const products = [
     priceSuffix: "/mo",
     features: ["10M+ assets", "Commercial use", "No attribution"],
     label: "New",
-    image: "src/img/Group 7 (1).png",
+    image: img3,
   },
   {
     name: "Automation Toolkit",
@@ -33,7 +40,7 @@ const products = [
     priceSuffix: "/mo",
     features: ["50+ automations", "API access", "Custom workflows"],
     label: "Popular",
-    image: "src/img/Group 7 (2).png",
+    image: img4,
   },
   {
     name: "Resume Builder Pro",
@@ -42,7 +49,7 @@ const products = [
     priceSuffix: "/one-time",
     features: ["100+ templates", "ATS optimization", "Export to PDF"],
     label: "New",
-    image: "src/img/Group 7 (3).png",
+    image: img5,
   },
   {
     name: "Social Media Content Kit",
@@ -51,7 +58,7 @@ const products = [
     priceSuffix: "/mo",
     features: ["5000+ assets", "Scheduler included", "Analytics dashboard"],
     label: "Best Seller",
-    image: "src/img/Group 7 (4).png",
+    image: img6,
   },
 ];
 

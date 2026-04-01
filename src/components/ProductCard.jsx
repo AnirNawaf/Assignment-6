@@ -1,6 +1,8 @@
+import checkIcon from "../img/Vector (10).png";
+
 const ProductCard = ({ product, Cartadd, inCart }) => {
   return (
-    <div className="p-4 rounded-xl shadow relative flex flex-col justify-between">
+    <div className="p-4  rounded-xl shadow relative flex flex-col justify-between">
       {product.label && (
         <span
           className={
@@ -28,7 +30,7 @@ const ProductCard = ({ product, Cartadd, inCart }) => {
       <ul className="text-gray-700 text-sm mb-3 space-y-1">
         {product.features?.map((feat, idx) => (
           <li key={idx} className="flex items-center">
-            <span className="mr-2 text-green-500"><img src="src/img/Vector (10).png" alt="" /></span> {feat}
+            <span className="mr-2 text-green-500"><img src={checkIcon} alt="" /></span> {feat}
           </li>
         ))}
       </ul>
