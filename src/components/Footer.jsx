@@ -1,3 +1,7 @@
+import instagram from "../img/Instagram.png";
+import facebook from "../img/Facebook.png";
+import x from "../img/fi_5968958.png";
+
 export default function Footer() {
   return (
     <footer className="w-full border-t-2 border-violet-600 bg-[#08152d] text-white">
@@ -43,13 +47,13 @@ export default function Footer() {
             <h3 className="mb-4 mt-8 text-base font-semibold">Social Links</h3>
             <div className="flex items-center  gap-3">
               <div className="flex cursor-pointer transition duration-300 hover:scale-110 h-9 w-9 items-center justify-center rounded-full bg-white text-[#08152d]">
-                <img src="src/img/Instagram.png" alt="instagram" />
+                <img src={instagram} alt="instagram" />
               </div>
               <div className=" cursor-pointer transition duration-300 hover:scale-110 flex h-9 w-9 items-center justify-center rounded-full bg-white text-[#08152d]">
-                <img src="src/img/Facebook.png" alt="facebook" />
+                <img src={facebook} alt="facebook" />
               </div>
               <div className=" cursor-pointer transition duration-300 hover:scale-110 flex h-9 w-9 items-center justify-center rounded-full bg-white text-[#08152d]">
-                <img src="src/img/fi_5968958.png" alt="x" />
+                <img src={x} alt="x" />
               </div>
             </div>
           </div>
