@@ -6,6 +6,7 @@ import ProductCard from "./components/ProductCard";
 import Cart from "./components/Cart";
 import products from "./data/products";
 import Steps from "./components/Steps";
+import Pricing from "./components/Pricing";
 
 
 
@@ -99,6 +100,7 @@ function App() {
 
 
       <Steps />
+      <Pricing />
 
     </div>
   );
