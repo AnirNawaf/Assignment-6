@@ -15,8 +15,8 @@ const Steps = () => {
           </p>
         </div>
 
-        <div class="mt-14 grid gap-6 md:grid-cols-3">
-          <div class="relative rounded-2xl border border-slate-200 bg-white px-8 py-12 text-center shadow-sm">
+        <div class="mt-14 grid  gap-6 md:grid-cols-3">
+          <div class="relative cursor-pointer transition duration-300 hover:scale-105 rounded-2xl border border-slate-200 bg-white px-8 py-12 text-center shadow-sm">
             <div class="absolute  flex h-8 w-8 right-4 top-4 justify-center items-center   rounded-full bg-violet-600 text-[11px] font-semibold text-white">
               01
             </div>
@@ -34,7 +34,7 @@ const Steps = () => {
             </p>
           </div>
 
-          <div class="relative rounded-2xl border border-slate-200 bg-white px-8 py-12 text-center shadow-sm">
+          <div class="relative cursor-pointer transition duration-300 hover:scale-105 rounded-2xl border border-slate-200 bg-white px-8 py-12 text-center shadow-sm">
             <div class="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-violet-600 text-[11px] font-semibold text-white">
               02
             </div>
@@ -51,8 +51,8 @@ const Steps = () => {
             </p>
           </div>
 
-          <div class="relative rounded-2xl border border-slate-200 bg-white px-8 py-12 text-center shadow-sm">
-            <div class="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-violet-600 text-[11px] font-semibold text-white">
+          <div class="relative cursor-pointer transition duration-300 hover:scale-105 rounded-2xl border border-slate-200 bg-white px-8 py-12 text-center shadow-sm">
+            <div class="absolute top-4 right-4  flex h-8 w-8 items-center justify-center rounded-full bg-violet-600 text-[11px] font-semibold text-white">
               03
             </div>
 
