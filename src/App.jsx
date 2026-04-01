@@ -8,8 +8,7 @@ import products from "./data/products";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
 import CTASection from "./components/CTASection";
-
-
+import Footer from "./components/Footer";
 
 
 import { ToastContainer, toast } from "react-toastify";
@@ -104,6 +103,8 @@ function App() {
       <Steps />
       <Pricing />
       <CTASection />
+      <Footer />
+
 
     </div>
   );
