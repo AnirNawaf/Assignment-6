@@ -23,7 +23,7 @@ export default function CTASection() {
           </div>
 
           <p className="mt-6 text-xs text-white/70">
-            14-day free trial • No credit card required • Cancel anytime
+            14-day free trial • No credit card required •  Cancel anytime
           </p>
         </div>
       </div>
