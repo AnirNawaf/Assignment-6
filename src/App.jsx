@@ -5,6 +5,8 @@ import Stats from "./components/Stats";
 import ProductCard from "./components/ProductCard";
 import Cart from "./components/Cart";
 import products from "./data/products";
+import Steps from "./components/Steps";
+
 
 
 import { ToastContainer, toast } from "react-toastify";
@@ -94,6 +96,9 @@ function App() {
           )}
         </div>
       </div>
+
+
+      <Steps />
 
     </div>
   );
