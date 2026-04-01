@@ -7,6 +7,8 @@ import Cart from "./components/Cart";
 import products from "./data/products";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
+import CTASection from "./components/CTASection";
+
 
 
 
@@ -101,6 +103,7 @@ function App() {
 
       <Steps />
       <Pricing />
+      <CTASection />
 
     </div>
   );
